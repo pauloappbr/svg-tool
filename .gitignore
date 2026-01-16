@@ -1,0 +1,38 @@
+# Main binary (Linux/Mac)
+svg-tool
+
+# Windows Binaries
+*.exe
+*.dll
+
+# Release directory created by Makefile
+bin/
+dist/
+
+# Prevent committing generated icons in the root directory by mistake.
+# If you have real source assets, keep them in a dedicated 'design/' or 'assets/' folder.
+*.ico
+*.png
+
+# Local workspace files
+go.work
+go.work.sum
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# --- Misc ---
+.env
+coverage.out

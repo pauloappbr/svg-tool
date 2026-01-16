@@ -71,7 +71,7 @@ make build
 #### Linux / macOS
 
 ```bash
-git clone https://github.com/yourusername/svg-tool.git
+git clone https://github.com/pauloappbr/svg-tool.git
 cd svg-tool
 sudo make install
 ```
@@ -83,7 +83,7 @@ The binary will be installed to `/usr/local/bin/svg-tool`.
 Clone the repository and execute the installation script via PowerShell:
 
 ```powershell
-git clone https://github.com/yourusername/svg-tool.git
+git clone https://github.com/pauloappbr/svg-tool.git
 cd svg-tool
 .\scripts\install.ps1
 ```

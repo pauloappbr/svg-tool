@@ -33,13 +33,13 @@ jobs:
         run: |
           mkdir -p bin
           echo "Building for Linux..."
-          GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o bin/svg-tool-linux-amd64 cmd/svg-tool/main.go
+          GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o bin/svg-tool-linux-amd64 ./cmd/svg-tool/main.go
           
           echo "Building for Windows..."
-          GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o bin/svg-tool-windows-amd64.exe cmd/svg-tool/main.go
+          GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o bin/svg-tool-windows-amd64.exe ./cmd/svg-tool/main.go
           
           echo "Building for macOS (Apple Silicon)..."
-          GOOS=darwin GOARCH=arm64 go build -ldflags="-s -w" -o bin/svg-tool-darwin-arm64 cmd/svg-tool/main.go
+          GOOS=darwin GOARCH=arm64 go build -ldflags="-s -w" -o bin/svg-tool-darwin-arm64 ./cmd/svg-tool/main.go
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2

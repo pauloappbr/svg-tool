@@ -1,7 +1,7 @@
 # SVG Tool
 
 
-![Go Version](https://img.shields.io/badge/Go-1.23+-00ADD8?style=flat-square&logo=go)
+![Go Version](https://img.shields.io/badge/Go-1.25+-00ADD8?style=flat-square&logo=go)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) 
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey?style=flat-square)
@@ -63,7 +63,7 @@ make build
 
 ### Prerequisites
 
-- **Go 1.23 or later** — [Download Go](https://go.dev/dl/)
+- **Go 1.25 or later** — [Download Go](https://go.dev/dl/)
 - Once compiled, the binary is self-sufficient with zero runtime dependencies
 
 ### From Source

@@ -48,7 +48,7 @@ Perfect for CI/CD pipelines, Docker environments, and automated asset generation
 
 ```bash
 # Build from source
-git clone https://github.com/yourusername/svg-tool.git
+git clone https://github.com/pauloappbr/svg-tool.git
 cd svg-tool
 make build
 
@@ -90,16 +90,16 @@ cd svg-tool
 
 ### Pre-built Binaries
 
-Pre-built binaries are available for download from the [Releases page](https://github.com/yourusername/svg-tool/releases).
+Pre-built binaries are available for download from the [Releases page](https://github.com/pauloappbr/svg-tool/releases).
 
 ```bash
 # Linux / macOS
-wget https://github.com/yourusername/svg-tool/releases/download/v1.0.0/svg-tool-linux-amd64
+wget https://github.com/pauloappbr/svg-tool/releases/download/v1.0.0/svg-tool-linux-amd64
 chmod +x svg-tool-linux-amd64
 sudo mv svg-tool-linux-amd64 /usr/local/bin/svg-tool
 
 # macOS (Apple Silicon)
-wget https://github.com/yourusername/svg-tool/releases/download/v1.0.0/svg-tool-darwin-arm64
+wget https://github.com/pauloappbr/svg-tool/releases/download/v1.0.0/svg-tool-darwin-arm64
 chmod +x svg-tool-darwin-arm64
 sudo mv svg-tool-darwin-arm64 /usr/local/bin/svg-tool
 ```
@@ -204,6 +204,10 @@ svg-tool/
 ├── Dockerfile                   # Docker image definition
 ├── Makefile                     # Build automation
 ├── go.mod                       # Go module definition
+├── go.sum                       # Go module checksums
+├── CONTRIBUTING.md              # Contribution guidelines
+├── CODE_OF_CONDUCT.md           # Community code of conduct
+├── LICENSE                      # Project license (MIT)
 └── README.md                    # This file
 ```
 
@@ -238,12 +242,12 @@ This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDU
 ### Getting Help
 
 - **Documentation:** See [Usage](#usage) section above
-- **Issues:** [GitHub Issues](https://github.com/yourusername/svg-tool/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/svg-tool/discussions)
+- **Issues:** [GitHub Issues](https://github.com/pauloappbr/svg-tool/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/pauloappbr/svg-tool/discussions)
 
 ### Reporting Bugs
 
-Please use [GitHub Issues](https://github.com/yourusername/svg-tool/issues) to report bugs. Include:
+Please use [GitHub Issues](https://github.com/pauloappbr/svg-tool/issues) to report bugs. Include:
 
 - Operating system and version
 - Go version (if building from source)
